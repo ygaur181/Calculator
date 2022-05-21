@@ -1,0 +1,67 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.calculator{
+    height: 420px;
+    width: 300px;
+    border-radius: 30px;
+    overflow: hidden;
+    box-shadow: 5px 5px 15px rgb(208, 204, 204);
+}
+
+.display{
+    background-color: black;
+    color: white;
+    height: 30%;
+    position: relative;
+}
+
+.number{
+    height: 70%;
+}
+
+.display span{
+    position: absolute;
+    bottom: 5px;
+    right: 5px;
+    font-size: xx-large;
+}
+
+.operator{
+    height: 20%;
+}
+
+.operand{
+    height: 80%;
+}
+
+.operator button{
+    width: 20%;
+    height: 100%;
+}
+
+.operand button{
+    width: 33.333%;
+    height: 25%;
+}
+
+button{
+    cursor: pointer;
+    border: none;
+}
+
+button:hover{
+    background-color: rgb(210, 204, 204);
+}
